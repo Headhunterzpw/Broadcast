@@ -1,0 +1,16 @@
+name: Broadcast
+main: nl.jessegeerts.publicplugins.broadcast.Main
+version: 1.0
+commands:
+  broadcast:
+    usage: /<command>
+    description: Broadcast a message onto the entire server.
+    aliases: [bc,ebc,bcast,ebcast,ebroadcast,shout,eshout]
+  setbroadcastprefix:
+    usage: /<command>
+    description: Set a new broadcast prefix
+    aliases: [sbc]
+  reloadbroadcast:
+    usage: /<command>
+    description: Reload the confighub
+    aliases: [rbc]
